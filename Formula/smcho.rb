@@ -8,7 +8,8 @@ class Smcho < Formula
   # shasum -a 256 FILE_NAME
   url "https://dl.dropboxusercontent.com/u/10773282/share/2015/smcho.gz"
   sha256 "e5840777c4c0d5d1bccf684af486612b6b6bebe71a946fda48870fc599763635"
-
+  version "0.1.0"
+  
   # depends_on "cmake" => :build
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
